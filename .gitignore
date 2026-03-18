@@ -1,0 +1,8 @@
+### ENV ###
+.env
+
+### VENV ###
+/venv
+
+### Data ###
+/data

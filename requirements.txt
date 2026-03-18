@@ -1,0 +1,12 @@
+langchain
+langchain-core
+langchain-community
+langchain-azure-ai
+ddgs
+duckduckgo-search
+langchain_ollama
+langgraph
+langchain-chroma
+chromadb
+docx2txt
+langchain-tavily
