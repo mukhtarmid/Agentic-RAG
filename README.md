@@ -2,8 +2,6 @@
 
 An intelligent, stateful AI agent capable of **Retrieval-Augmented Generation (RAG)**, web searching, and tool-assisted reasoning. This project leverages **LangGraph** to create a cyclic agentic workflow, allowing the LLM to decide whether to search the web, query local documents, or perform calculations.
 
-![Agent Graph](./agent%20graph.png)
-
 ## Features
 
 * **Agentic Decision Making**: Uses LangGraph to manage state and conditional transitions between nodes.
@@ -23,11 +21,6 @@ The agent operates as a state machine. It evaluates the user's query and determi
 1.  **Categorization**: Does the query need a search, a document lookup, or a direct answer?
 2.  **Action**: Executes the selected tool (e.g., `calculator`, `duckduckgo_search`).
 3.  **Refinement**: If the information is insufficient, the agent can loop back to gather more data or refine the answer.
-
-### **Workflow Visualizations**
-| Main Graph | Conditional Logic |
-| :--- | :--- |
-| ![Graph](./graph.png) | ![Conditional Graph](./conditional_graph.png) |
 
 ---
 
